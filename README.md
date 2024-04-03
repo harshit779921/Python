@@ -1,3 +1,3 @@
 # Python
 
-## This Repo contain program which I practice 
+## This Repo contain Python program which I practice 
