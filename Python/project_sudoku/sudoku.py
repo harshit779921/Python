@@ -83,5 +83,5 @@ def find_empty(bod):
 
 print_board(board)
 solve(board)
-print("_____________________\n")
+print("________________________\n")
 print_board(board)
