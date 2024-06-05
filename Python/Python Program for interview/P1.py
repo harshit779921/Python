@@ -11,7 +11,6 @@ print(total)
 
 #  second way do not use if
 
-
 a = 1
 total = 0
 while a <= 50:
