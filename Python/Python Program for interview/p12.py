@@ -10,3 +10,8 @@ with open('Python\Python Program for interview\p12_sample.txt', "r") as file:
                 total = total + int(word)
 
 print("The total of int in file:", total)
+
+
+# if their is any negative value
+
+# if word.lstrip('-').isdigit():  # Check if the word is a digit, ignoring the negative sign
