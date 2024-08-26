@@ -19,3 +19,12 @@ grades = map(grade,marks)
 print("Exam Scores: ", marks)   
 print("Grades: ", list(grades))   # when we use next(grades) it will return only one  grade then we have to print nect to get next grade as it itrate one by one
 # print(next(grades))  # it will return only one grade at a time
+
+marks = [77, 97, 64, 85, 55]
+
+def failing(score):
+    return score < 60
+
+result = filter(failing, marks)
+
+print("Failing Scores: ", list(result))
